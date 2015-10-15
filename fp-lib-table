@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name mechanics)(type KiCad)(uri "$(KIPRJMOD)/mechanics.pretty")(options "")(descr ""))
   (lib (name tssop)(type KiCad)(uri "$(KIPRJMOD)/tssop.pretty")(options "")(descr ""))
+  (lib (name oshw)(type KiCad)(uri "$(KIPRJMOD)/oshw.pretty")(options "")(descr ""))
 )

@@ -3,7 +3,7 @@
   (general
     (links 51)
     (no_connects 0)
-    (area 113.924999 101.924999 158.075001 121.075001)
+    (area 110.461667 97.915 161.318334 126.393095)
     (thickness 1.6)
     (drawings 46)
     (tracks 313)
@@ -842,7 +842,7 @@
   )
 
   (module oshw:logo_xs (layer F.Cu) (tedit 0) (tstamp 56201B7E)
-    (at 124.206 105.918)
+    (at 124.714 104.648)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.3)))
     )

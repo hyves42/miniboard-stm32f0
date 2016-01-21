@@ -4,7 +4,7 @@ miniboard-stm32f0
 This is the simplest bare-minimum form of a protototyping board for the stm32f030 chip from S.T.
 
 
-Here is how it looks like :
+Here is what it looks like :
 
 Front
 

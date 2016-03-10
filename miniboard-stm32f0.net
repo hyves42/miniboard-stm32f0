@@ -1,8 +1,8 @@
 (export (version D)
   (design
     (source /home/yves/perso/kicad/miniboard-stm32f0/miniboard-stm32f0.sch)
-    (date "jeu. 21 janv. 2016 01:12:45 CET")
-    (tool "Eeschema 0.201601151446+6474~42~ubuntu14.04.1-product")
+    (date "mar. 08 mars 2016 22:27:41 CET")
+    (tool "Eeschema 0.201603031449+6606~43~ubuntu14.04.1-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title)
@@ -274,7 +274,8 @@
       (description "Polarised capacitor")
       (footprints
         (fp CP*)
-        (fp Elko*)
+        (fp C_Axial*)
+        (fp C_Radial*)
         (fp TantalC*)
         (fp C*elec)
         (fp c_elec*)
@@ -306,13 +307,8 @@
         (pin (num 1) (name ~) (type unspc))))
     (libpart (lib device) (part LED)
       (footprints
-        (fp LED-3MM)
-        (fp LED-5MM)
-        (fp LED-10MM)
-        (fp LED-0603)
-        (fp LED-0805)
-        (fp LED-1206)
-        (fp LEDV))
+        (fp LED-*)
+        (fp LED_*))
       (fields
         (field (name Reference) D)
         (field (name Value) LED))
@@ -364,14 +360,14 @@
         (pin (num 19) (name PA13) (type unspc))
         (pin (num 20) (name PA14) (type unspc)))))
   (libraries
-    (library (logical device)
-      (uri /usr/share/kicad/library/device.lib))
     (library (logical stm32f030f4p6)
       (uri /home/yves/perso/kicad/miniboard-stm32f0/stm32f030f4p6.lib))
-    (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib))
     (library (logical mechanics)
-      (uri /home/yves/perso/kicad/miniboard-stm32f0/mechanics.lib)))
+      (uri /home/yves/perso/kicad/miniboard-stm32f0/mechanics.lib))
+    (library (logical device)
+      (uri /usr/share/kicad/library/device.lib))
+    (library (logical conn)
+      (uri /usr/share/kicad/library/conn.lib)))
   (nets
     (net (code 1) (name GND)
       (node (ref P_POWER1) (pin 2))
